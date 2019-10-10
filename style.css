@@ -15,5 +15,9 @@ table {
 
  td{
     border: 1px black solid;
-
+}
+@@media (max-width: 500px) {
+    body {
+        background-color: red;
+    }
 }
